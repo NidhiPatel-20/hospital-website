@@ -1,0 +1,255 @@
+/* home page */
+.navbar {
+    border: none;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Lucida Sans';
+}
+
+.navbar {
+    border: none;
+    border-radius: 0;
+}
+
+.nav-pills {
+    float: right;
+    padding: 5px 0px;
+    margin-top: 1px;
+}
+
+.navbar-default {
+    background-color: white;
+}
+
+.nav-pills>li>a {
+    font-size: 18px;
+    padding: 13px 15px;
+    margin: 14px;
+    font-family: 'Verdana';
+    color: #099
+}
+
+#logo {
+    height: 100px;
+    width: 250px;
+}
+
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:focus,
+.nav-pills>li.active>a:hover {
+    color: #fff;
+    background-color: #099;
+}
+
+.hospital-container {
+    padding: 70px;
+    background-color: white;
+}
+
+.hospital-title {
+    color: #009999;
+    font-weight: bold;
+}
+
+.hospital-subtitle {
+    font-style: italic;
+    color: #333;
+}
+
+.hospital-description {
+    margin-top: 20px;
+    line-height: 1.8;
+    font-family: 'Verdana', 'sans-serif';
+}
+
+.hospital-image {
+    margin-top: 70px;
+}
+#Appointment {
+    color: white;
+}
+
+#Appointment:hover {
+    text-decoration: none;
+}
+#button:hover #Appointment {
+    color: #009999; 
+}
+#button {
+    margin-top: 40px;
+    margin-bottom: 60px;
+    background-color: #009999;
+    border: 2px solid #009999 transparent;
+    box-sizing: border-box;
+}
+#button:hover {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgb(252, 250, 250), 0 0 20px #009999, 0 0 30px rgb(252, 249, 249), 0 0 40px #009999;
+}
+
+.speciality-section {
+    padding: 50px 20px;
+}
+
+.speciality-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.speciality-title h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+}
+
+.speciality-title h2 span {
+    color: #009999;
+}
+
+.speciality-title hr {
+    width: 80px;
+    height: 2px;
+    background: #009999;
+    margin: 10px auto;
+    border: none;
+}
+
+.speciality-item {
+    text-align: center;
+    background: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    margin-bottom: 30px;
+}
+
+.speciality-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.speciality-icon {
+    width: 70px;
+    height: 70px;
+    background: linear-gradient(45deg, #009999, rgb(69, 199, 201));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: 0 auto 15px;
+}
+
+.speciality-icon img {
+    width: 40px;
+    height: 40px;
+}
+
+.speciality-text {
+    color: #555;
+}
+
+.speciality-text h4 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.speciality-text p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #777;
+}
+
+.footer {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 20px 0;
+    position: relative;
+}
+
+.footer h3 {
+    font-size: 33px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.footer p,
+.footer a {
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 16px 0;
+}
+
+.footer a:hover {
+    text-decoration: underline #099;
+}
+
+.footer .bottom-bar {
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+    padding: 3px 0;
+}
+
+/* About Us */
+#vission-cards{
+   background-color: #f9f9f9;
+}
+/*  contact-us */
+
+#form-title {
+    margin-bottom: 30px;
+    color: #009999;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family:'Segoe UI';
+}
+.form-group {
+    margin-bottom: 30px;
+}
+
+.control-label {
+    font-weight: bold;
+    color: #009999;
+    letter-spacing:1px ;
+}
+
+.input-group-addon {
+    background-color: #009999;
+    color: #fff;
+    border: none;
+    box-shadow:1px 1px  #009999;
+}
+
+.form-control {
+    border-radius: 4px;
+    box-shadow:1px 1px  #009999;
+}
+.radio label {
+    margin-right: 15px;
+    font-weight: normal;
+    color: #009999;
+}
+.btn-primary {
+    background-color: #009999;
+    border-color: #009999;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+.btn-primary:hover {
+    background-color: white;
+    color: #009999;
+    box-shadow: 0 0 10px rgb(252, 250, 250), 0 0 20px #009999, 0 0 20px rgb(252, 249, 249), 0 0 20px #009999;
+border: none;
+}
+#form{
+   padding: 23px;
+}
